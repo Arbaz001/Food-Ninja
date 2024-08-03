@@ -13,7 +13,10 @@
         android:theme="@style/Theme.FoodNinjaa"
         tools:targetApi="31">
         <activity
-            android:name=".Fourth_Activity"
+            android:name=".signup_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".login_Activity"
             android:exported="false" />
         <activity
             android:name=".third_Activity"

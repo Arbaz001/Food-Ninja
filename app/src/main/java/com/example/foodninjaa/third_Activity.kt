@@ -3,10 +3,7 @@ package com.example.foodninjaa
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 
 class third_Activity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -16,7 +13,7 @@ class third_Activity : AppCompatActivity() {
 
         btn.setOnClickListener{
             //open a new activity
-            intent= Intent(applicationContext,Fourth_Activity::class.java)
+            intent= Intent(applicationContext,login_Activity::class.java)
             startActivity(intent)
             finish()
         }
