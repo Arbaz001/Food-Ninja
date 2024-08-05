@@ -15,4 +15,5 @@
     <string name="sign_up_for_free">Sign Up For Free</string>
     <string name="name">Name</string>
     <string name="create_account">Create Account</string>
+    <string name="already_have_an_account">already have an account?</string>
 </resources>
