@@ -13,7 +13,7 @@ class third_Activity : AppCompatActivity() {
 
         btn.setOnClickListener{
             //open a new activity
-            intent= Intent(applicationContext,login_Activity::class.java)
+            intent= Intent(applicationContext,signup_Activity::class.java)
             startActivity(intent)
             finish()
         }
