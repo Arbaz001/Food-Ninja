@@ -16,4 +16,7 @@
     <string name="name">Name</string>
     <string name="create_account">Create Account</string>
     <string name="already_have_an_account">already have an account?</string>
+    <string name="last_name">Last Name</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="this_data_will_be_displayed_in_your_account_profile_for_security">This data will be displayed in your account profile for security</string>
 </resources>
